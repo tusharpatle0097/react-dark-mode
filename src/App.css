@@ -1,38 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+/* App.css */
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+.content {
+  padding: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.light {
+  background-color: #fff;
+  color: #333;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+.dark {
+  background-color: #09406f;
+  color: #fff;
 }
 
-.App-link {
-  color: #61dafb;
+
+.Acblight {
+  background-color: #fff;
+  color: #333;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.Acbdark {
+  background-color: #333;
+  color: #fff;
+  border: 3px solid green;
+}
+
+.forRedDark {
+  background-color: red;
+  color: #fff;
+}
+
+.forRedLight {
+  background-color: #fff;
+  color: red;
+}
+
+.navColor {
+  background-color: green;
+}
+
+.inputDark {
+  background: rgb(20 20 74);
+  color: #fff;
+  border: 2px solid green;
+}
+
+textarea {
+  width: 100%;
+  margin-top: 2rem;
 }

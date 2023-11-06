@@ -1,0 +1,13 @@
+.loginButton {
+    border: none;
+    background: #930ed1;
+    color: #fff;
+    padding: 4px;
+    border-radius: 7px;
+    font-size: 18px;
+    width: 95px;
+}
+.loginform{
+    text-align: justify;
+    width: 50%;
+}
